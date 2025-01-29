@@ -29,6 +29,7 @@ const ModalProvider: React.FC<ModalProviderProps> = ({ children }) => {
 
   useEffect(() => {
     setIsMounted(true)
+    console.log('neuralize')
   }, [])
 
   const setOpen = async (
